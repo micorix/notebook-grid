@@ -51,8 +51,3 @@ default_grid_config = {
     "line_weight": 1,
     "spacing": 100,
 }
-
-
-svg = generate_grid_svg_code(default_grid_config)
-print(svg)
-save_svg_to_bitmap_file(svg)
